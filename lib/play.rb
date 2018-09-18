@@ -39,7 +39,11 @@ end
 
 def play(board)
   counter = 0;
+<<<<<<< HEAD
   until counter == 9
+=======
+  until counter > 9
+>>>>>>> 3dc94b9ae804ac956e3889c520e0aacf48931924
     turn(board)
     counter += 1
   end
